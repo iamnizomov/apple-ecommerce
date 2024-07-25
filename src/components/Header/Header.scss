@@ -1,0 +1,54 @@
+.header {
+    padding: 26px 0 0 0;
+
+    &__container {
+        padding-bottom: 26px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1140px;
+
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background: #000000;
+            opacity: 0.1;
+            border-radius: 5px;
+        }
+    }
+
+    .cart {
+        position: relative;
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+
+        &__icon {
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+        }
+
+        &__count {
+            width: 16px;
+            height: 16px;
+            background-color: red;
+            text-align: center;
+            border-radius: 50%;
+            position: absolute;
+            font-size: 12px;
+            bottom: 0;
+            right: 0;
+            transform: translate(50%, 50%);
+        }
+    }
+
+
+}

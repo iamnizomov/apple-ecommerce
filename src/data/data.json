@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Watch Silver Aluminum",
+        "tags": ["watch", "apple"],
+        "price": 319,
+        "imgUrl": "/public/"
+    },
+    {
+        "id": 1,
+        "name": "",
+        "tags": ["watch", "apple"],
+        "price": 320,
+        "imgUrl": "/public/"
+    },
+    {
+        "id": 1,
+        "name": "",
+        "tags": ["watch", "apple"],
+        "price": 320,
+        "imgUrl": "/public/"
+    },
+    {
+        "id": 1,
+        "name": "",
+        "tags": ["watch", "apple"],
+        "price": 320,
+        "imgUrl": "/public/"
+    },
+    {
+        "id": 1,
+        "name": "",
+        "tags": ["watch", "apple"],
+        "price": 320,
+        "imgUrl": "/public/"
+    },
+    {
+        "id": 1,
+        "name": "",
+        "tags": ["watch", "apple"],
+        "price": 320,
+        "imgUrl": "/public/"
+    }
+]

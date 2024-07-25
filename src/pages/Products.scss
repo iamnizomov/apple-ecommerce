@@ -1,0 +1,104 @@
+.products {
+    &__container {
+        padding: 50px 0;
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    &__heading {
+        margin-bottom: 24px;
+        font-size: 32px;
+    }
+
+    &__list {
+        display: grid;
+        row-gap: 30px;
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .product-item {
+        width: 100%;
+        border-radius: 25px;
+        background-color: #FEFEFE;
+        padding: 36px 24px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transition: all 250ms ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+        }
+
+        &__image-container {
+            width: auto;
+            height: 92px;
+            display: flex;
+            margin-bottom: 24px;
+        }
+
+        &__image {
+            width: auto;
+            height: 100%;
+        }
+
+        &__heading {
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        &__tags-container {
+            display: flex;
+            column-gap: 12px;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 36px;
+        }
+
+        &__tag {
+            background-color: #F9FBF9;
+            padding: 6px 12px;
+            color: #CFDED1;
+            cursor: pointer;
+        }
+
+        &__description-container {
+            width: 80%;
+            border-top: 4px solid rgba(128, 128, 128, 0.33);
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__price {
+            color: #6F6F6F;
+            font-size: 12px;
+            font-weight: 900;
+        }
+
+        &__add-to-cart-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 24px;
+            width: 24px;
+            border-radius: 5px;
+            outline: 0;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            background: none;
+            cursor: pointer;
+
+            &:hover {
+                border-color: rgba(0, 0, 0, 1)
+            }
+
+            img {
+                height: 18px;
+                width: auto;
+            }
+        }
+    }
+}
